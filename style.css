@@ -1,0 +1,164 @@
+html{
+	scroll-behavior:smooth;
+}
+body{
+	font-family:poppins;
+}
+h1,h2,h3,h4,h5,h6{
+	
+}
+
+
+/*header start*/
+header{
+	background-image:url("img/cafe-2.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.banner-container{
+	height:100vh;
+}
+.navbar{
+	padding:1% 1%;
+	background-color:rgba(0,0,0,0.3);
+}
+.navbar-icon{
+	color:white;
+}
+.navbar-brand img{
+	width:100px;
+	height:auto;
+}
+.nav-link{
+	color:white;
+	margin:10px;
+	border-radius:-5px;
+	transition:.4s;
+}
+.nav-link:hover{
+	background:red;
+	color:navy;
+	transform:scale(1.1);
+}
+.banner-container h1{
+	font-size:2.5rem;
+	padding:10px 20px;
+	font-family:arial;
+}
+.navbar button{
+	border-radius:40px;
+}
+
+/*header end*/
+
+
+/*featured starts*/
+#features{
+	padding:12px 10px;
+	background:white;
+}
+.our_class{
+	padding:54px 15px;
+}
+.we_class{
+	padding:40px 15px;
+}
+.my_class img{
+	width:312px;
+    height:312px;
+}
+.me_class img{
+	width:312px;
+    height:312px;
+	margin-left: -18px;
+	margin-top:-5px;
+}
+/*featured ends*/
+.hr-style{
+	border:5px dotted white;
+	border-bottom:none;
+	width:50px;
+}
+.section-title h3{
+	font-weight:bolder;
+	margin-bottom:0;
+}
+/*about me start*/
+#about-me{
+	background-image:url("img/cafe-2.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:4% 10%;
+}
+#about-me p{
+	font-size:0.6rem;
+	margin-bottom:0;
+	font-weight:light;
+}
+/*
+#about-me{
+	padding:4% 10%;
+	background:#D0D3D4;
+}
+#about-me p{
+	font-size:0.9rem;
+	margin-bottom:0;
+	font-weight:light;
+}
+#about-me a{
+	font-size:0.9rem;
+	font-weight:lighter;
+	color:black;
+	text-decoration:underline;
+}
+.star i{
+	width:20px;
+	color:blue;
+}
+*/
+/*about me ends*/
+
+/*contact starts*/
+#contact{
+	padding:2% 10%;
+	background:#85929E;
+}
+.form-group{
+	margin-bottom:0;
+	font-weight:regular;
+}
+/*contact ends*/
+
+
+/*footer start*/
+footer{
+	padding:1% 10%;
+	background:#2C3E50 ;
+}
+footer a{
+	color:white;
+	margin-bottom:0 10px;
+	text-decoration:none;
+}
+footer a:hover{
+	color:black;
+}
+
+/*footer end*/
+
+@media (max-width:768px){
+	.nav-link{
+		background:rgb(0,0,0,0.7);
+	}
+	.banner-container h1{
+		font-size:2rem;
+		
+	}
+}
+
+#search{
+	border-color:#04f3ff;
+	color:red;
+}
